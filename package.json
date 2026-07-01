@@ -1,0 +1,14 @@
+{
+  "name": "unicity-tip-bot",
+  "version": "1.0.0",
+  "description": "Simple tip bot using Sphere SDK on Unicity testnet",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@unicitylabs/sphere-sdk": "latest",
+    "ws": "latest"
+  }
+}
